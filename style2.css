@@ -1,0 +1,167 @@
+header {
+    background-color: blanchedalmond;
+    color: white;
+    width: 100%;
+    height: 40px;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+ul, li, h1 {
+    display: inline;
+}
+
+ul {
+    padding-left: 75%;
+}
+
+* {
+    margin: 0px;
+}
+
+.one {
+    background-image: url("dd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: crimson;
+    padding-top: 200px;
+    height: 500px;
+    width: 100%;
+    font-family: 'cursive';
+}
+
+.one h1 {
+    font-family: 'cursive';
+    color:purple;
+}
+
+.two {
+    height: 400px;
+    width: 100px;
+}
+
+.box {
+    margin: 20px;
+    text-align: center;
+}
+
+.box p {
+    font-family: 'cursive';
+    color: purple;
+}
+
+.cake {
+    color: white;
+    padding: 10px;
+}
+
+.c {
+    font-size: larger;
+    color: purple;
+}
+
+.home {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.home .h h1 {
+    font-family: 'cursive';
+    font-size: 2.5em; /* Adjust size as needed */
+    color: purple;
+}
+
+.home-images .product {
+    margin: 20px;
+}
+
+.home-images .product p {
+    font-family: 'cursive';
+    color: white;
+}
+
+.offers {
+   /* background-color:rgb(198, 179, 122);*/
+   background-image: url('b1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+
+    padding: 160px;
+    text-align: center;
+}
+
+.offers h1 {
+    font-family: 'cursive';
+    font-size: 2em;
+    color:red;
+    margin-bottom: 20px;
+}
+
+.offer-form {
+    display: inline-block;
+    text-align: left;
+}
+
+.offer-form label {
+    font-family: 'cursive';
+    color:black;
+    font-size: 1.2em;
+}
+
+.offer-form input[type="text"],
+.offer-form input[type="email"],
+.offer-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d5d3d3;
+    border-radius: 5px;
+}
+
+.offer-form input[type="submit"] {
+    background-color: green;
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'cursive';
+    font-size: 1.2em;
+}
+
+.offer-form input[type="submit"]:hover {
+    background-color: darkpurple;
+}
+
+  .contact {
+    background-image: url('cccc.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    width:fit-content;
+    margin-right: 50%;
+    margin-left: 100%;
+    
+    
+  
+  
+  }
+ 
+  {
+    margin:0;
+    margin-left:60; padding:0;
+    box-sizing:border-box;
+    font-family:'Cursive',sans-serif;
+  }
+ 
+  
